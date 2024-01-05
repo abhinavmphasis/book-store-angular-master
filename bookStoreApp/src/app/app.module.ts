@@ -12,9 +12,10 @@ import { CounterService } from './shared/services/counter.service';
 import { Counter2Service } from './shared/services/counter2.service';
 import { TestService } from './shared/services/test.service';
 import { counterFactory } from './shared/services/counter.factory';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
-  declarations: [AppComponent, AboutUsComponent, HowItWorksComponent, HomeComponent],
+  declarations: [AppComponent, AboutUsComponent, HowItWorksComponent, HomeComponent, TestComponent],
   imports: [
     BrowserModule,
     SharedModule,
